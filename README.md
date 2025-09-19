@@ -54,3 +54,15 @@ It does this ONE at a time, until the for loop hits the user entered number, the
 the last odd index in the array will always be arr[1], and every time the loop runs the rollOver value reassigns to the new arr[1] val.
 depending on whether or not size is even or odd, the rollover value is changed from array size-2 to size-1 for even, and the index that 
 gets assigned the rollover value changes from size-1 to size-2 for odd(order of changes is ignored in this explanation, simply the two options are listed)
+
+matrix:
+About this project: reads in array and prints its transpose
+Assumptions: rows and collumn numbers will not be negative, will not exceed 99
+functions logic:
+initialize LOGIC: it reads values row by row, once the inner loop completes its run that means all the collumns 
+of that row has been entered, then it continues to the next row and reads in the collumns and continues as many times as there are rows
+
+printRotation LOGIC: prints out the matrix but flips the values of the inner and out loop and also the order of the increment variables. if the number
+of rows and collumns are different, the function will print as many collumns as the number of rows the user enters, and as many rows as the number of collumns the user enters
+
+
