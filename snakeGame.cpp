@@ -1,14 +1,3 @@
-/* Name: Sienna Veidis
-Date: 4/25
-Section: 2
-Assignment: 7
-Due Date: 4/25
-About this project: 
-Assumptions: 
-
-does what is needed to do but formatting and prompts are not what they should be sorry im lazy will fix later
-
-All work below was performed by (Sienna Veidis) */
 #include <iostream>
 using namespace std;
 char ** createField(int length, int width);
@@ -242,5 +231,6 @@ void playGame(char ** arr, int width, int length)
         
 }
 }
+
 
 
