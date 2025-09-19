@@ -1,3 +1,5 @@
+/*The program simulates a snake moving on a grid from a gate, avoiding walls and obstacles, 
+and ends if the snake runs into itself based on user-provided movement directions. It also grows when it eats*/
 #include <iostream>
 using namespace std;
 char ** createField(int length, int width);
@@ -231,6 +233,7 @@ void playGame(char ** arr, int width, int length)
         
 }
 }
+
 
 
 
